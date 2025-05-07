@@ -81,10 +81,3 @@ Otros Endpoints Disponibles
 | PUT    | `/productos/{id}`    | Reemplaza completamente un producto         |
 | PATCH  | `/productos/{id}`    | Actualiza parcialmente un producto          |
 | DELETE | `/productos/{id}`    | Elimina un producto                         |
-
----
-
-Finalización
-------------
-
-¡Listo! La API está en funcionamiento y puedes realizar pruebas desde Postman. Continúa ampliando las funcionalidades según lo que necesite la tienda.
