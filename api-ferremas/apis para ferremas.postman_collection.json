@@ -22,7 +22,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/local",
+					"raw": "http://localhost:8080/locales",
 					"protocol": "http",
 					"host": [
 						"localhost"
