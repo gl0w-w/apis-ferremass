@@ -4,7 +4,7 @@ Requisitos
 primero que nada, revizar si tienes instalado:
 
 - Java 17 o superior
-- Postman (para pruebas de la API)
+- Postman
 
 ---
 
