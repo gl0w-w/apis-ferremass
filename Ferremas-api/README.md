@@ -15,7 +15,7 @@ Ejecución del proyecto
 
 Clonar el repositorio o descargarlo de manera manual.
 
-2. Verficar si estas loggeado en Postman
+2. Verificar si estas loggeado en Postman
 
 Este paso es importante ya que si no estas loggeado no te dejara agregar el archivo al Postman.
 
@@ -28,7 +28,7 @@ Este paso es importante ya que si no estas loggeado no te dejara agregar el arch
 
 4. Ejecutar la API
 
-- Abre el proyecto en un IDE como **IntelliJ IDEA** o **Visual Studio Code**.
+- Abrir el proyecto en una IDE, en este caso se uso Visual Studio Code.
 - Ejecuta el proyecto en modo *Run and Debug*.
 - La API estará disponible en: `http://localhost:8080`
 
@@ -43,8 +43,8 @@ a) Crear una Sucursal
 - Cuerpo (JSON):
 ```json
 {
-  "nombre": "Sucursal Centro",
-  "direccion": "Av. Principal 123, Ciudad"
+  "nombre": "Sucursal Central",
+  "direccion": "San Diego 11959, Santiago"
 }
 ```
 
@@ -54,10 +54,10 @@ b) Crear un Producto
 - Cuerpo (JSON):
 ```json
 {
-  "nombre": "Martillo de acero",
+  "nombre": "Taladro Bauker",
   "categoria": "herramientas",
-  "precio": 45.99,
-  "stock": 30,
+  "precio": 30.290,
+  "stock": 19,
   "sucursales": [
     { "id": 1 }
   ]
