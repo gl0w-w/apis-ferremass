@@ -83,8 +83,3 @@ Otros Endpoints Disponibles
 | DELETE | `/productos/{id}`    | Elimina un producto                         |
 
 ---
-
-Finalización
-------------
-
-¡Listo! La API está en funcionamiento y puedes realizar pruebas desde Postman. Continúa ampliando las funcionalidades según lo que necesite la tienda.
