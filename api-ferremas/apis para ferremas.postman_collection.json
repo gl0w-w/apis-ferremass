@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "4173bdef-b7db-4f96-b61f-1dbf27079a5d",
+		"_postman_id": "113e90e2-eb92-4b94-9b8d-473dfb6ae7d6",
 		"name": "apis para ferremas",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "44725484",
-		"_collection_link": "https://grey-station-4529806.postman.co/workspace/iv%25C3%25A1n's-Workspace~f458b7ab-a71d-45a9-8448-0332416d2c11/collection/44725484-4173bdef-b7db-4f96-b61f-1dbf27079a5d?action=share&source=collection_link&creator=44725484"
+		"_collection_link": "https://grey-station-4529806.postman.co/workspace/iv%C3%A1n's-Workspace~f458b7ab-a71d-45a9-8448-0332416d2c11/collection/44725484-113e90e2-eb92-4b94-9b8d-473dfb6ae7d6?action=share&source=collection_link&creator=44725484"
 	},
 	"item": [
 		{
@@ -14,7 +14,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "{\r\n  \"nombre\": \"Local Norte\",\r\n  \"direccion\": \"San Diego 11959, Santiago\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -29,7 +29,7 @@
 					],
 					"port": "8080",
 					"path": [
-						"local"
+						"locales"
 					]
 				}
 			},
@@ -41,7 +41,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": ""
+					"raw": "http://localhost:8080/locales",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"locales"
+					]
 				}
 			},
 			"response": []
